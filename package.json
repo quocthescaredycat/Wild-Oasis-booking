@@ -13,10 +13,11 @@
     "@heroicons/react": "^2.2.0",
     "@supabase/supabase-js": "^2.55.0",
     "@tailwindcss/cli": "^4.1.11",
-    "date-fns": "^4.1.0",
+    "date-fns": "^3.6.0",
     "next": "^15.4.6",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react": "^18.2.0",
+    "react-day-picker": "^8.10.1",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.28.0",
