@@ -4,14 +4,14 @@ A modern, full-stack booking website for luxury cabin rentals built with **Next.
 
 ## ✨ Features
 
-- **🏠 Cabin Browsing** - Explore our collection of luxury cabins with detailed information
-- **🔍 Smart Filtering** - Filter cabins by guest capacity (1-3, 4-7, 8-12 guests)
-- **📱 Responsive Design** - Seamless experience across all devices
-- **⚡ Server-Side Rendering** - Lightning-fast page loads with Next.js App Router
-- **🔗 Shareable URLs** - Bookmark and share filtered cabin views
-- **🎨 Modern UI** - Beautiful design with Tailwind CSS
-- **🌙 Image Optimization** - Automatic image optimization with Next.js Image component
-- **♿ Accessibility** - WCAG compliant navigation and components
+- **Cabin Browsing** - Explore our collection of luxury cabins with detailed information
+- **Smart Filtering** - Filter cabins by guest capacity (1-3, 4-7, 8-12 guests)
+- **Responsive Design** - Seamless experience across all devices
+- **Server-Side Rendering** - Lightning-fast page loads with Next.js App Router
+- **Shareable URLs** - Bookmark and share filtered cabin views
+- **Modern UI** - Beautiful design with Tailwind CSS
+- **Image Optimization** - Automatic image optimization with Next.js Image component
+- **Accessibility** - WCAG compliant navigation and components
 
 ## 🚀 Getting Started
 
