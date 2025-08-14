@@ -2,9 +2,26 @@
 
 import { redirect } from "next/navigation";
 import { auth, signIn, signOut } from "./auth";
-import { updateGuest as updateGuestapi } from "./data-service";
+import {
+  updateGuest as updateGuestapi,
+  updateBooking,
+  deleteBooking,
+  getBookings,
+} from "./data-service";
 import { revalidatePath } from "next/cache";
 
+export async function deleteReservation(bookingId) {
+  const session = await auth();
+  if (!session) throw new Error("You must be signed in!");
+  const bookings = await getBookings(session.user.guestId);
+  const bookingIds = bookings.map((booking) => booking.id);
+  if (!bookingIds.includes(bookingId)) {
+    throw new Error("You do not have permission to delete this reservation");
+  }
+
+  await deleteBooking(bookingId);
+  revalidatePath("/account/reservations");
+}
 export async function signInAction() {
   await signIn("google", { redirectTo: "/account" });
 }
