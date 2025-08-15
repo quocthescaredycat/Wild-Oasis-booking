@@ -1,6 +1,7 @@
 # 🏔️ The Wild Oasis - Cabin Booking Website
 
 A modern, full-stack booking website for luxury cabin rentals built with **Next.js 15** and **Supabase**. Experience the beauty of the Italian Dolomites from the comfort of our premium accommodations.
+Next.js enables backend functionality inside frontend application. This is called Fullstack React - developers get both frontend and backend in one codebase.
 
 ## ✨ Features
 
@@ -13,6 +14,14 @@ A modern, full-stack booking website for luxury cabin rentals built with **Next.
 - **Image Optimization** - Automatic image optimization with Next.js Image component
 - **Accessibility** - WCAG compliant navigation and components
 
+### Key Technologies
+
+- **Frontend**: React 18, Next.js 15, Tailwind CSS
+- **Backend**: Next.js Server Actions, NextAuth.js
+- **Database**: Supabase
+- **Authentication**: NextAuth.js, Google OAuth 2.0
+- **Deployment**: Vercel
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -20,6 +29,7 @@ A modern, full-stack booking website for luxury cabin rentals built with **Next.
 - Node.js 18.17 or later
 - npm or yarn
 - Supabase account
+- Google OAuth
 
 ## 🎯 Key Features Explained
 
